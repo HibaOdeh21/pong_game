@@ -10,6 +10,9 @@ get position(){
 set position(value){
     this.paddleElem.style.setProperty("--position",value)
 }
+rect(){
+    return this.paddleElem.getBoundingClientRect()
+}
 reset(){
     this.reset =50
 }
